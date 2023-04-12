@@ -45,7 +45,7 @@ pub enum Error {
 	/// Returned when there are too many validators.
 	#[error("There are too many validators")]
 	TooManyValidators,
-	/// Cannot encode something for zero or one validator
+	/// Cannot encode something for zeroor one validator
 	#[error("Expected at least 2 validators")]
 	NotEnoughValidators,
 	/// Cannot reconstruct: wrong number of validators.
