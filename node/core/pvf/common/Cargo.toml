@@ -17,14 +17,14 @@ parity-scale-codec = { version = "3.6.1", default-features = false, features = [
 polkadot-parachain = { path = "../../../../parachain" }
 polkadot-primitives = { path = "../../../../primitives" }
 
-sc-executor = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-executor-common = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-executor-wasmtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sc-executor = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+sc-executor-common = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+sc-executor-wasmtime = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
 
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-externalities = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-tracing = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-core = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+sp-externalities = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+sp-io = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+sp-tracing = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
 
 [target.'cfg(target_os = "linux")'.dependencies]
 landlock = "0.2.0"

@@ -12,14 +12,14 @@ honggfuzz = "0.5.55"
 arbitrary = "1.2.0"
 scale-info = { version = "2.5.0", features = ["derive"] }
 
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "master" }
-frame-support = { git = "https://github.com/paritytech/substrate", branch = "master" }
-pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "master" }
-pallet-message-queue = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-std = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "master" }
+frame-system = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+frame-support = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+pallet-balances = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+pallet-message-queue = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+sp-std = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+sp-core = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+sp-runtime = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
+sp-io = { git = "https://github.com/vikinatora/substrate", branch = "grandpa-logs" }
 
 xcm = { path = "../../" }
 xcm-simulator = { path = "../" }
